@@ -411,6 +411,7 @@
             var href = $(this).attr('href');
             var tabId = $(this).attr('data-tab');
             if ('#' !== href) {
+                // debugger;
                 e.preventDefault();
                 $(document).scrollTop($(href).offset().top - 70);
                  // alert($(href).offset().top);
